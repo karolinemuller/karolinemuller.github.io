@@ -1,0 +1,491 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+Body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    height: 405px;
+    margin-top: -30px;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.banner {
+    width: 900px;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.overskrift {
+    padding-top: -5%;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-left: solid;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    text-align: center;
+
+}
+
+/*menulinje*/
+
+.omos {
+    border-right: solid;
+    padding-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 7px 20px 7px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left:10%;
+}
+
+/* Fashion underside */
+
+
+.tekst1{
+    margin-right: 35%;
+    text-align: justify;
+}
+
+.tekst2{
+    margin-left: 13%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+.tekst3{
+    margin-left: -3%;
+    margin-right: 35%;
+    text-align: justify;
+}
+
+.tekst4{
+    margin-left: -3%;
+    margin-right: 35%;
+    text-align: justify;
+}
+
+.artikel1{
+    margin-left: 25%;
+}
+.artikel2{
+   margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.artikel3{
+    margin-left: 24%;
+    margin-top: 4%;
+}
+
+.artikel4{
+    margin-left: 24%;
+     margin-top: 4%;
+}
+
+.akt1 {
+  
+}
+
+/* Artikler */
+
+.artikler {
+    margin-left: 60%;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+.tek{
+    margin-left: 10%;
+}
+
+.tek1{
+    margin-left: 25%;
+}
+
+.tekstpenge{
+    font-size: 15px;
+}
+
+/* Tjen penge på at shoppe */
+
+.underoverskrift {
+    text-align: center;
+    font-style: italic;
+}
+
+.billed1 {
+    text-align: center;
+}
+
+.tekstpenge {
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.lavetaf {
+    text-align: center;
+    font-style: italic;
+}
+
+.underoverskrift2 {
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: center;
+}
+.links {
+    margin-left: 28%;
+    font-size: 12px;
+}
+
+/* Vaskeguide */
+
+ol {
+    font-weight: bold;
+}
+
+
+.li1{
+    border-left: none;
+    float: left;
+    margin-top: 5%;
+    margin-left: -2%;
+    padding-left: -2%;
+
+}
+
+.tekstvask {
+    margin: 2% 0% 2% -5%;
+    font-weight: normal;
+    
+}
+.tekstvask1{
+    text-align: left;
+    width: 50%;
+    margin-top: 2%; 
+    
+}
+.billed2 {
+    margin-left: 50%;
+    margin-top: -60%;
+}
+
+.billed3 {
+   margin-left: 50%;
+    margin-top: -20%;
+}
+
+.tekstvask {
+    text-align: left;
+}
+
+.tekstvask2 {
+    text-align: left;
+    margin-top: 1%;
+    width: 50%;    
+}
+
+
+/* Studierabat */
+
+.overskrift1 {
+    padding-top: -5%;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.underoverskrift1 {
+    margin-left: 330px;
+    margin-right: 330px;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Billigt vs. dyrt */
+
+.tekstpenge1{
+    font-size: 12px;
+    margin-left: 20%;
+    
+}
+}
+
+/* Slideshow på forsiden */
+
+table {
+    margin-left: 10%;
+
+}
+
+.tekststudie{
+    color: white;
+}
+
+.tekststudie1{
+    margin-top: 40%;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none;
+    margin-top: 4%;
+    
+}
+
+/* Slideshow container */
+
+.slideshow {
+    max-width: 1000px;
+    position: absolute;
+    float: right;
+    margin-left: 10%;
+    margin-top: -46%;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 450px;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a lightgray background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: lightgray;
+}
+
+/* Caption text */
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+
+                }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+#menu {
+    margin-left: 50px;
+}
+
+/* Nyhedsbrev */
+
+.brev {
+ display: flex;
+ justify-content: space-around;
+    
+}
+.nyhed{
+   float: right;
+    
+}
+.signup {
+    margin-top: -20%;
+}
+.signup1 {
+    border: 2px solid black;
+    padding: 9px;
+    margin-left: 20%;
+
+        overflow: hidden;
+}    
+
+.new{
+    display: flex;
+    float: left;
+    margin: 190px;
+}
+
+.abo{
+    margin: 161px;
+}
+
+.abo1{
+    text-align: center;
+}
+.om{
+    text-align: center;
+}
+
+.karo{
+    margin-top: 10%;
+    display: inline-flex;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+}
+.karoline {
+    width: 59%;
+    height: 90%;
+    text-align: center;
+}
+
+.karo1{
+    margin-top: 30%;
+    margin-left: 4%;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 5;
+    width: 90%;
+    background-color: white;
+    color: black;
+    border-top: 3px solid;
+    margin-left: 5%;
+    clear:both;
+   
+}
+
+.ikoner {
+    display: inline;
+    float: right;
+    width: 4%;
+    margin: 10px 1%;
+}
+
+.ikoner1 {
+    margin-right: 5%;
+}
+
+.footertekst {
+    margin-left: 2%;
+    width: 40%;
+    font-size: 13px;
+    float: left;
+    
+}
+
